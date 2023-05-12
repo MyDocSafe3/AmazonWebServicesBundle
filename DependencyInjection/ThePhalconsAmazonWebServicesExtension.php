@@ -64,7 +64,7 @@ class ThePhalconsAmazonWebServicesExtension extends Extension
         //TODO : implement aws services injection
     }
 
-    public function getAlias()
+    public function getAlias(): string
     {
         return 'the_phalcons_amazon_web_services';
     }
